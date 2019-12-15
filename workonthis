@@ -1,0 +1,16 @@
+while topingssc ='yes'
+    print("do you want more toppings ")
+topingss=[]
+piza=[]
+comein=input("hello welcome to kris's piza rira\nhow may i take your order ")
+topings=input("what do you want on your piza ")
+topingss.append(topings)
+again=input("do you want more topings yes or no ")#AAAAAAAAAAAAAAAAAAAAAA that was crazy i have to keep the list the same
+again=str(again)
+time.sleep(10)
+topingss.append(topings)
+piza.append(comein)
+print(piza)
+print("with")
+print(topingss)
+print("oder up")
